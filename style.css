@@ -1,0 +1,36 @@
+.qcont{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000000;
+    opacity: 0.8;
+    width: 50%;
+   height: 5000px;
+}
+body{
+	background-image: url("https://www.artlebedev.com/iq-quarter/logo/images/aizhk_pic_01.jpg")
+}
+
+.q
+{
+   width: 250px;
+   height: 400px;
+   background-color: #3281a8;
+   opacity: 0.5;
+   padding-bottom: 50px;
+   padding-left: 40px;
+   padding-right: 40px; 
+
+}
+.q :hover{
+	width: 250px;
+   height: 500px;
+   background-color: #3281a8;
+   
+   padding-bottom: 50px;
+   border-top-left-radius: 0.8pc;
+}
+.qs{
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+}
