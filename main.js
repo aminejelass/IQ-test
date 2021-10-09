@@ -14,35 +14,25 @@ function Quizz (id,subj,choices,index)
 
 function trans(arr)
 {
-	
+	var x = arr[0]
 	
 	for(var i = 0 ; i<arr.length-1 ; i++)
 	{
  		arr[i]=arr[i+1]
 	}
-	 
+	 arr[arr.length-1]=x;
 
 	return arr;
 }
 
-function mix ( arr )
+function mix ()
 
 {
 	var x = Math.floor(Math.random()*4)
-	console.log(x)
-	var s = arr[0]
 
-
-	for(var i = 0 ; i >= x ; i++)
-	{	
-		console.log("i "+i)
-		s = arr[0]
-
-		 for(var j = 0 ; j<arr.length-1 ; j++)
-		{
- 			arr[j]=arr[j+1]
-		}
-		arr[arr.length-1]=s;
+	for(var i = 0 ; i <=x ; i++)
+	{
+		 trans(arr);
 	}
 
 	return arr;
