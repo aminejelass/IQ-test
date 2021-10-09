@@ -9,13 +9,14 @@
 }
 
 body{
-	background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aaff30d3-826b-45df-a9c4-c79501a9b119/da0du91-9c1af1ae-d902-4830-9ccc-bba7fe5c2bdd.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FhZmYzMGQzLTgyNmItNDVkZi1hOWM0LWM3OTUwMWE5YjExOVwvZGEwZHU5MS05YzFhZjFhZS1kOTAyLTQ4MzAtOWNjYy1iYmE3ZmU1YzJiZGQuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-z73Ce4GMSdlTqnnRQohe08q2cLO3Gmr13EWScGbtRQ")
+	
+	background-image: url("https://coolwallpapers.me/picsup/5493157-conan-wallpapers.jpg")
 }
 
 .q1
 {
    width: 250px;
-   height: 400px;
+   height: 200px;
    background-color: #3281a8;
    opacity: 1;
    padding-bottom: 50px;
@@ -39,7 +40,7 @@ body{
 .q2
 {
    width: 250px;
-   height: 400px;
+   height: 200px;
    background-color: #3281a8;
    opacity: 1;
    padding-bottom: 50px;
@@ -53,7 +54,7 @@ body{
 .q3
 {
    width: 250px;
-   height: 400px;
+   height: 200px;
    background-color: #3281a8;
    opacity: 1;
    padding-bottom: 50px;
@@ -67,7 +68,7 @@ body{
 .q4
 {
    width: 250px;
-   height: 400px;
+   height: 200px;
    background-color: #3281a8;
    opacity: 1;
    padding-bottom: 50px;
@@ -81,5 +82,36 @@ body{
 .qs{
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 100px;
+	
+}
+
+.question
+{
+   width: 600px;
+   height: 450px;
+   background-color: #3281a8;
+   opacity: 1;
+   padding-bottom: 50px;
+   padding-left: 40px;
+   padding-right: 40px; 
+   border-radius: 2pc;
+}
+.question img {
+	margin-left: auto;
+	margin-right:auto ; 
+	width: 500px;
+   height: 350px;
+   padding-top: 50px;
+   padding-left: 50px; 
+   border-radius: 1pc;
+}
+
+.question img : hover {
+	margin-left: auto;
+	margin-right:auto ; 
+	width: 600px;
+   height: 450px;
+   padding-top: 50px;
+   padding-left: 50px; 
+   border-radius: 1pc;
 }

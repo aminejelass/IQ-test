@@ -32,10 +32,9 @@ function mix ()
 
 	for(var i = 0 ; i <=x ; i++)
 	{
-		 trans(arr);
+		 trans(this.choices);
 	}
 
-	return arr;
 
 }
 
