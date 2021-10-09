@@ -10,13 +10,13 @@
 
 body{
 	
-	background-image: url("https://coolwallpapers.me/picsup/5493157-conan-wallpapers.jpg")
+	background-image: url("https://wallpaperaccess.com/full/187161.jpg")
 }
 
 .q1
 {
    width: 250px;
-   height: 200px;
+   height: 150px;
    background-color: #3281a8;
    opacity: 1;
    padding-bottom: 50px;
@@ -28,7 +28,7 @@ body{
  .q1 : hover
 {
    width: 250px;
-   height: 400px;
+   height: 150px;
    background-color: white;
    opacity: 1;
    padding-bottom: 50px;
@@ -40,7 +40,7 @@ body{
 .q2
 {
    width: 250px;
-   height: 200px;
+   height: 150px;
    background-color: #3281a8;
    opacity: 1;
    padding-bottom: 50px;
@@ -54,7 +54,7 @@ body{
 .q3
 {
    width: 250px;
-   height: 200px;
+   height: 150px;
    background-color: #3281a8;
    opacity: 1;
    padding-bottom: 50px;
@@ -68,7 +68,7 @@ body{
 .q4
 {
    width: 250px;
-   height: 200px;
+   height: 150px;
    background-color: #3281a8;
    opacity: 1;
    padding-bottom: 50px;
@@ -88,7 +88,7 @@ body{
 .question
 {
    width: 600px;
-   height: 450px;
+   height: 550px;
    background-color: #3281a8;
    opacity: 1;
    padding-bottom: 50px;
@@ -100,17 +100,7 @@ body{
 	margin-left: auto;
 	margin-right:auto ; 
 	width: 500px;
-   height: 350px;
-   padding-top: 50px;
-   padding-left: 50px; 
-   border-radius: 1pc;
-}
-
-.question img : hover {
-	margin-left: auto;
-	margin-right:auto ; 
-	width: 600px;
-   height: 450px;
+   height: 150px;
    padding-top: 50px;
    padding-left: 50px; 
    border-radius: 1pc;

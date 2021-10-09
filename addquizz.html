@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>add quizz</title>
+	<link rel="stylesheet" type="text/css" href="addquizz.css">
+	
+</head>
+<body>
+   <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+
+
+  <div  class="form_container">
+  	<table class="form_block">
+  		<tr>
+  			<td colspan="2"><div class="inp_id"><input type="text" placeholder="ID" name="id"></div></td>
+  		</tr>
+  		<tr>
+  			<td colspan="2"><div class="inp_obj"><input type="text" placeholder="subject of quizz" name="id"></div></td>
+  		</tr>
+  		<tr>
+  			<td colspan="2"><div class="inp_true"><input type="text" placeholder="index of correct answer" name="true"></div></td>
+  		</tr>
+  	     <tr>
+  			<td colspan="2"><div class="inp_img"><input type="text" placeholder="src of your image" name="true"></div></td>
+  		</tr>
+  		 <tr>
+  			<td><div class="inp_choice"><input id="ch_txt" type="text" placeholder="add choices" name="true"></div></td>
+  			<td><div class="add_choice"><button onclick="add_ch()">add choice</button></div></td>
+  		</tr>
+  		<tr>
+  			<tr><td><div id="ch"></div></td></tr>
+  		</tr>
+
+  	</table>
+  </div>
+
+
+
+
+
+
+<script type="text/javascript" src="main_addQuizz.js"></script>
+ 
+
+</body>
+</html>

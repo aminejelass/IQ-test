@@ -1,20 +1,33 @@
-function Quizz (id,subj,choices,index)
+function Quizz (id,subj,choices,index,img)
 {
 	q = {};
 	q.id=id;
 	q.subj=subj;
 	q.choices=choices;
 	q.index_true=index;
+	q.img=img;
 	q.mix=mix;
 	return q;
 
 }
 
+var mix =function  ()
 
+{
+
+	var x = Math.floor(Math.random()*4)
+
+	for(var i = 0 ; i <=x ; i++)
+	{
+		 trans(this.choices);
+	}
+
+
+}
 
 function trans(arr)
 {
-	var x = arr[0]
+	var x = arr
 	
 	for(var i = 0 ; i<arr.length-1 ; i++)
 	{
@@ -25,16 +38,9 @@ function trans(arr)
 	return arr;
 }
 
-function mix ()
 
-{
-	var x = Math.floor(Math.random()*4)
-
-	for(var i = 0 ; i <=x ; i++)
-	{
-		 trans(this.choices);
-	}
-
+function Liste ()
+{  
 
 }
 

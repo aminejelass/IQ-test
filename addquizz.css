@@ -1,0 +1,66 @@
+body{
+	background-image: url("https://wallpaperaccess.com/full/187161.jpg");
+	    
+    
+    background-size: auto 100%;
+
+}
+.form_container {
+    margin-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: 700px;
+	background-color: white;
+	opacity: 0.8;
+	border-radius: 5pc;
+
+ 
+}
+.form_block{
+	margin-left: auto;
+	margin-right: auto; 
+	padding-top : 100px;
+	margin-bottom:auto;
+}
+
+.form_block input {
+
+	width: 500px;
+	height: 50px;
+	border-radius: 0.4pc;
+	margin-top: 10px;
+	font-size: 30px;
+
+
+
+
+}
+
+.form_block input:hover {
+
+	width: 500px;
+	height: 50px;
+	border-radius: 0.5pc;
+	background-color: #69bdd2;
+
+     
+
+}
+.form_block button{
+	width: 150px;
+	height: 50px;
+	border-radius: 0.4pc;
+
+}
+.form_block button:hover{
+	width: 150px;
+	height: 50px;
+	border-radius: 0.4pc;
+	background-color: #69bdd2;
+
+}
+#opt{
+	font-size: 30px;
+
+}
