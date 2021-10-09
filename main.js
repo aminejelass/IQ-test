@@ -1,2 +1,4 @@
-console.log("hello")
-$(body).append("Jquery is working")
+function Quizz ()
+{
+	
+}
