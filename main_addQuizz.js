@@ -1,4 +1,4 @@
-
+console.log("hello")
  var arr = [];
  var quizzlist=[];
 
@@ -6,14 +6,19 @@ function Quizz (id,subj,choices,img,index)
 {
 	q = {};
 
-	q.id=id;subj=subj;
+	q.id=id;
+	subj=subj;
 	q.choices=choices;
 	q.index_true=index;
 	q.img=img;
 	q.mix=mix;
+    
 	return q;
 
 }
+
+
+
 
 var mix =function  ()
 
@@ -113,8 +118,17 @@ function addquizz ()
 
         quizzlist.push(q);
 
-        console.log(quizzlist)
-
+        localStorage.setItem('quizzs', JSON.stringify(quizzlist));
 
 	
 }
+
+
+
+
+
+
+
+
+
+

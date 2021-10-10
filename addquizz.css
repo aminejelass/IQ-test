@@ -64,3 +64,29 @@ body{
 	font-size: 30px;
 
 }
+
+#list{
+ 	margin-left: auto;
+	margin-right: auto;
+	 
+}
+#qcontainer
+{
+	background-color: grey;
+	opacity: 0.8;
+	width: 50%;
+		margin-left: auto;
+	margin-right: auto;
+	font-size: 50px;
+	border-radius: 2pc;
+
+}
+
+#qcontainer input{
+	width: 150px;
+	height: 50px;
+	border-radius: 0.4pc;
+	 	margin-left: auto;
+	margin-right: auto;
+
+}
