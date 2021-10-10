@@ -1,8 +1,8 @@
 
  var arr = [];
- var quizzs=[];
+ var quizzlist=[];
 
- function Quizz (id,subj,choices,index,img)
+function Quizz (id,subj,choices,img,index)
 {
 	q = {};
 
@@ -26,7 +26,6 @@ var mix =function  ()
 		 trans(this.choices);
 	}
 
-
 }
 
 
@@ -35,6 +34,7 @@ function check()
 {
 	return $("#ch_txt").val()!==""
 }
+
 
  function add_ch() {
   
@@ -56,7 +56,7 @@ function check()
     for(var i = 0 ; i<arr.length ; i++)
    	   {   
     	htt=""
-    	htt='<tr><td><div id= "opt">'+arr[i]+'</div></td>'+'<td><input type="radio" id="html" name="choice" value="HTML"></td></tr>'
+    	htt='<tr><td><div id= "opt">'+arr[i]+'</div></td>'+'<td><input type="radio" id="html" name="choice" value="'+arr[i]+'"></td></tr>'
 
     	ch.append(htt);
    	   }
@@ -77,17 +77,44 @@ function check()
 function reset()
 {
 	$("#ch_txt").css("background-color","")
-$("#inp_id").val("")
-$("#inp_obj").val("")
-$("#inp_true").val("")
-$("#inp_img").val("")
-$("#ch_txt").val("")
-$("#ch").html("")
-arr = []
+    $("#inp_id").val("")
+    $("#inp_obj").val("")
+    $("#inp_true").val("")
+    $("#inp_img").val("")
+    $("#ch_txt").val("")
+    $("#ch").html("")
+    arr = []
 }
-
 
 function addquizz ()
 {
-	var q = Quizz($("#inp_id").val(),$("#inp_obj").val(),$("#inp_true").val(),$("#inp_img").val(),$("#ch_txt").val()) 
+	var q = Quizz($("#inp_id").val(),$("#inp_obj").val(),[],$("#inp_img").val(),0) 
+
+
+        var value = $("input[type=radio][name=choice]:checked").val();
+        if (value) {
+            q.index_true = value
+            
+        }
+        else {
+            alert('Nothing is selected');
+        }
+
+        var value = $("input[type=radio][name=choice]");
+        var ch=[];
+
+        for(var i = 0 ; i<value.length ; i++)
+        {
+        	ch.push(value[i].value);
+        }
+
+        q.choices=ch;
+
+
+        quizzlist.push(q);
+
+        console.log(quizzlist)
+
+
+	
 }
