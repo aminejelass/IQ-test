@@ -1,8 +1,45 @@
 .container{
 
-	
+	margin-bottom: 150px;
 	margin-right: auto;
 	margin-left: auto;
 	width: 50%;
 	height: 1000px;
+	color:white;
+	background-color: black;
+	opacity: 0.8;
+	overflow: auto;
+}
+.container > .quizz img {
+
+	width: 70%;
+	height: 70%;
+	border-radius: 5pc;
+
+}
+.container > .quizz{
+  margin-left: 250px
+}
+.container > .quizz > .des {
+
+	font-size: 50px;
+}
+body
+{
+	background-image: url("https://file1.science-et-vie.com/var/scienceetvie/storage/images/1/1/6/116859/une-intelligence-artificielle-fabrique-adn-pour-premiere-fois.jpg?alias=original")
+}
+
+.chrono{
+	background-color: white;
+	width: 120px;
+	height: 120px;
+	border-radius: 3pc;
+
+	font-size: 60px;
+}
+.chrono #timer
+{
+	margin-left: 5px;
+	
+
 }

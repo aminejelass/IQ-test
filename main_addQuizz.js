@@ -7,9 +7,9 @@ function Quizz (id,subj,choices,img,index)
 	q = {};
 
 	q.id=id;
-	subj=subj;
+	q.subj=subj;
 	q.choices=choices;
-	q.index_true=index;
+    q.index_true=index
 	q.img=img;
 	q.mix=mix;
     
@@ -114,7 +114,6 @@ function addquizz ()
         }
 
         q.choices=ch;
-
 
         quizzlist.push(q);
 
