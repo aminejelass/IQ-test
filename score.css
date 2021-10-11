@@ -1,0 +1,31 @@
+body{
+
+	background-image: url("https://www.teahub.io/photos/full/187-1876194_software-engineer-wallpaper-darkness.jpg");
+}
+
+.container
+{
+   background-color: black;
+   opacity: 0.2pc;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   height: 650px;
+   margin-top: 150px;
+   border-radius: 5pc;
+   color: white;
+   font-size: 120px;
+   align-content: center;
+
+}
+.container input
+{
+	size: 50px
+}
+#score{
+
+	margin-left:350px;
+
+
+
+}
